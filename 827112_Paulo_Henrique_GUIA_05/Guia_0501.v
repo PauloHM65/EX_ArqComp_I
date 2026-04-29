@@ -42,7 +42,7 @@ module test_f01;
 
    initial
    begin : main
-      $display("Guia_0501 - xxx yyy zzz - 999999");
+      $display("Guia_0501 - Paulo Henrique - 827112");
       $display("Test module: s = ~a & ~b   (somente NAND)");
       $display(" x y | a b");
       $monitor("%4b %4b | %4b %4b", x, y, a, b);

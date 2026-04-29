@@ -41,7 +41,7 @@ module test_f03;
 
    initial
    begin : main
-      $display("Guia_0503 - xxx yyy zzz - 999999");
+      $display("Guia_0503 - Paulo Henrique - 827112");
       $display("Test module: s = ~(~a | b)   (somente NAND)");
       $display(" x y | a b");
       $monitor("%4b %4b | %4b %4b", x, y, a, b);
@@ -52,12 +52,4 @@ module test_f03;
    end
 endmodule // test_f03
 
-/* Saida esperada:
-Guia_0503 - xxx yyy zzz - 999999
-Test module: s = ~(~a | b)   (somente NAND)
- x y | a b
-   0    0 |    0    0
-   0    1 |    0    0
-   1    0 |    1    1
-   1    1 |    0    0
-*/
+
