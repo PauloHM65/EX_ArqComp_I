@@ -1,0 +1,36 @@
+Guia 04 Aluno: 827112_Paulo_Henrique
+
+Ex. 01 
+a) x . (y'+z')' = x.y.z = ∑ m(7)
+b) (x' + y)' . z' = x.y'.z' = ∑ m(4)
+c) (x . y)' . z = x'.z + y'.z = ∑ m(1, 3, 5)
+d) (x . y')' . z' = x'.z' + y.z' = ∑ m(0, 2, 6)
+e) (x' + y) . (y' + z)' = x'.y.z' + y.z' = ∑ m(2, 6)
+
+Ex. 02 
+a) x' . (x + y)' = x'.y'
+b) (x' + y) + (x' . y) = x' + y
+c) (x . y)' . (x' + y) = x'
+d) (x' . y')' + (x + y)' = 1
+e) (y' + x' + z) . (y + x + z')' = x'.y'.z
+
+Ex. 03 
+a) f(x,y,z) = ∑ m(1, 3, 4, 6) = x'y'z + x'yz + xy'z' + xyz'
+b) f(x,y,z) = ∑ m(1, 3, 6, 7) = x'y'z + x'yz + xyz' + xyz
+c) f(x,y,w,z) = ∑ m(1, 2, 3, 6, 7, 11, 15) = x'y'w'z + x'y'wz' + x'y'wz + x'ywz' + x'ywz + xy'wz + xywz
+d) f(x,y,w,z) = ∑ m(0, 2, 4, 6, 10, 12, 14) = x'y'w'z' + x'y'wz' + x'yw'z' + x'ywz' + xy'wz' + xyw'z' + xywz'
+e) f(x,y,w,z) = ∑ m(0, 1, 7, 9, 15) = x'y'w'z' + x'y'w'z + x'ywz + xy'w'z + xywz
+
+Ex. 04 
+a) F(X,Y,Z) = Π M(1, 2, 3, 6) = (X+Y+Z') . (X+Y'+Z) . (X+Y'+Z') . (X'+Y'+Z)
+b) F(X,Y,Z) = Π M(0, 2, 3, 4) = (X+Y+Z) . (X+Y'+Z) . (X+Y'+Z') . (X'+Y+Z)
+c) F(X,Y,W,Z) = Π M(0, 1, 2, 5, 6, 7, 11, 13) = (X+Y+W+Z) . (X+Y+W+Z') . (X+Y+W'+Z) . (X+Y'+W+Z') . (X+Y'+W'+Z) . (X+Y'+W'+Z') . (X'+Y+W'+Z') . (X'+Y'+W+Z')
+d) F(X,Y,W,Z) = Π M(1, 2, 4, 5, 8, 12, 13) = (X+Y+W+Z') . (X+Y+W'+Z) . (X+Y'+W+Z) . (X+Y'+W+Z') . (X'+Y+W+Z) . (X'+Y'+W+Z) . (X'+Y'+W+Z')
+e) F(X,Y,W,Z) = Π M(0, 1, 2, 3, 7, 11, 15) = (X+Y+W+Z) . (X+Y+W+Z') . (X+Y+W'+Z) . (X+Y+W'+Z') . (X+Y'+W'+Z') . (X'+Y+W'+Z') . (X'+Y'+W'+Z')
+
+Ex. 05 
+a) SoP = x'.y / PoS = (X+Y) . (X'+Y) . (X'+Y')
+b) SoP = x'.y' + x'.y + x.y / PoS = (X'+Y)
+c) SoP = x'.y'.z' + x'.y'.z + x'.y.z + x.y'.z' + x.y.z / PoS = (X+Y'+Z) . (X'+Y+Z') . (X'+Y'+Z)
+d) SoP = x'.y'.z' + x'.y'.z + x'.y.z' + x.y'.z' + x.y'.z + x.y.z' / PoS = (X+Y'+Z') . (X'+Y'+Z')
+e) SoP = ∑ m(0, 1, 5, 6, 10, 11, 15) / PoS = Π M(2, 3, 4, 7, 8, 9, 12, 13, 14)
